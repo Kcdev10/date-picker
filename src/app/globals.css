@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+/* .vertical-text-orientaiton {
+  writing-mode: vertical-rl;
+  @media (width<1024px) {
+    writing-mode: horizontal-tb;
+  }
+}
+.stripe-animate {
+  animation: updown 1.75s linear infinite;
+  animation-delay: 1s;
+  @media (width<1024px) {
+    animation: none;
+  }
+}
+
+@keyframes updown {
+  to {
+    transform: translateY(-8rem);
+  }
+} */
